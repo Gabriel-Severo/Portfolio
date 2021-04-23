@@ -1,9 +1,13 @@
 .menuContainer {
     display: flex;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 70px;
+    justify-content: space-between;
     align-items: center;
+    
+    height: 100px;
+    width: 100%;
+    
+    position: fixed;
+    padding: 0 150px;
 }
 
 .menuTitle, .menu {
@@ -18,5 +22,14 @@
 }
 
 .menuItem {
-    margin-right: 10px;
+    margin-right: 20px;
+}
+
+.menuTitle, .menuItem {
+    color: white;
+}
+
+.menuItem:hover {
+    color: #E57E71;
+    font-weight: bold;
 }

@@ -1,0 +1,26 @@
+.headerContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url('https://www.innetsolucoes.com.br/wp-content/uploads/2016/07/tech-background-image-1-1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.headerHR {
+    width: 100px;
+    border-color: white;
+}
+
+.headerTitulo {
+    margin: 0;
+    color: #E57E71;
+}
+
+.headerDescricao {
+    color: #E57E71;
+}
