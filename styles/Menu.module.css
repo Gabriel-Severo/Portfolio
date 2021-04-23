@@ -1,0 +1,22 @@
+.menuContainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70px;
+    align-items: center;
+}
+
+.menuTitle, .menu {
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.menuItem {
+    margin-right: 10px;
+}
