@@ -1,6 +1,7 @@
 import Menu from '../components/Menu'
 import Header from '../components/Header'
 import Projetos from '../components/Projetos'
+import Formulario from '../components/Formulario'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Menu/>
       <Header/>
       <Projetos/>
+      <Formulario/>
     </div>
   )
 }
