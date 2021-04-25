@@ -4,7 +4,7 @@
     align-items: center;
     
     height: 100px;
-    width: 100%;
+    width: 100vw;
     
     position: fixed;
     padding: 0 150px;
@@ -23,6 +23,7 @@
 
 .menuItem {
     margin-right: 20px;
+    font-weight: bold;
 }
 
 .menuTitle, .menuItem {
