@@ -6,7 +6,7 @@ function Projeto() {
             <a href="#">
                 <div className={styles.itemImagem}>
                     <div className={styles.subInfo}>
-                        <i class="fas fa-info-circle"></i>
+                        <i className="fas fa-info-circle"></i>
                     </div>
                     <img src="http://preview.hasthemes.com/portflow/images/portfolio/equal/1.jpg"></img>
                 </div>

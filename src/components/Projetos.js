@@ -5,6 +5,8 @@ function Portfolio() {
     return (
         <div className={styles.projetos}>
             <Projeto/>
+            <Projeto/>
+            <Projeto/>
         </div>
     )
 }
