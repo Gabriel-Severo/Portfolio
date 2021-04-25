@@ -1,7 +1,7 @@
 import styles from '../../styles/Formulario.module.css'
 function Formulario() {
     return (
-        <div className={styles.formContainer}>
+        <div className={styles.formContainer} id="contato">
             <h2>Entre em contato</h2>
             <hr className={styles.formHr}/>
             <form className={styles.formulario}>

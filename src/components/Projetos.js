@@ -3,7 +3,7 @@ import Projeto from '../components/Projeto'
 
 function Portfolio() {
     return (
-        <div className={styles.projetos}>
+        <div className={styles.projetos} id="projetos">
             <Projeto/>
             <Projeto/>
             <Projeto/>

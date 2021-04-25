@@ -18,16 +18,11 @@
     width: 400px;
 }
 
-.formInput:nth-child(3) {
-    resize: none;
-}
-
 .formUser {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 
 .formInput {
     outline: 0;
@@ -39,6 +34,10 @@
 
 .formInput:first-child {
     margin-right: 10px;
+}
+
+.formInput:nth-child(3) {
+    resize: none;
 }
 
 .submit {
