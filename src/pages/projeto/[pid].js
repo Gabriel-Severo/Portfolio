@@ -26,10 +26,14 @@ export default function Projeto() {
                         <span className={styles.projetoText}>Data de finalização:</span> {projeto.completedOn}
                     </div>
                     <div className={styles.categorias}>
-                        <span className={styles.projetoText}>Categorias: </span>{projeto.categories}
+                        <span className={styles.projetoText}>Categorias: </span>{
+                            projeto.categories.reduce((atual, valor) => {
+                                return atual + ", " + valor
+                            })
+                        }
                     </div>
                     <div className={styles.link}>
-                        <a href={projeto.link}>Link</a>
+                        <a className={styles.projetoLink} href={projeto.link}>Acessar projeto</a>
                     </div>
                     <div className={styles.descricacao}>
                         {projeto.description}

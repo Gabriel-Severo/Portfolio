@@ -18,6 +18,10 @@
     font-weight: bold;
 }
 
+.projetoLink {
+    color: blue;
+}
+
 @media (max-width: 800px) {
     .projetoContainer {
         flex-direction: column;

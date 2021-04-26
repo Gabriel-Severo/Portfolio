@@ -16,6 +16,10 @@
     border-color: white;
 }
 
+.headerDescricao {
+    width: 800px;
+}
+
 .headerTitulo {
     margin: 0;
     color: #E57E71;
