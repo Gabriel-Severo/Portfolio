@@ -1,11 +1,16 @@
 import { useEffect } from 'react'
 import styles from '../../styles/Menu.module.css'
-function Menu() {
+import Link from 'next/link'
+function Menu({visable}) {
     useEffect(() => {
+        const menu = document.querySelector('#menu')
+        if(visable){
+            menu.style.backgroundColor = "rgba(0, 0, 0, 0.6)"
+            return;
+        }
         window.addEventListener('scroll', () => {
-            const menu = document.querySelector('#menu')
             if(window.scrollY > 300){
-                menu.style.backgroundColor = "rgba(0, 0, 0, 0.)"
+                menu.style.backgroundColor = "rgba(0, 0, 0, 0.6)"
                 return;
             }
             menu.style.backgroundColor = "transparent"
@@ -14,17 +19,25 @@ function Menu() {
     return (
         <div className={styles.menuContainer} id="menu">
             <h1 className={styles.menuTitle}>
-                <a href="#">Gabriel Rodrigues</a>
+                <Link href="/">
+                    <a href="#">Gabriel Rodrigues</a>
+                </Link>
             </h1>
             <ul className={styles.menu}>
                 <li className={styles.menuItem}>
-                    <a href="#">Ínicio</a>
+                    <Link href="/#">
+                        <a href="#">Ínicio</a>
+                    </Link>
                 </li>
                 <li className={styles.menuItem}>
-                    <a href="#projetos">Portifólio</a>
+                    <Link href="/#projetos">
+                        <a href="#projetos">Portifólio</a>
+                    </Link>
                 </li>
                 <li className={styles.menuItem}>
-                    <a href="#contato">Contato</a>
+                    <Link href="/#contato">
+                        <a href="#contato">Contato</a>
+                    </Link>
                 </li>
             </ul>
         </div>

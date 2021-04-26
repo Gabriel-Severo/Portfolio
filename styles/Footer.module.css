@@ -1,0 +1,16 @@
+.footerContainer {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #22283D;
+    color: white;
+}
+
+.footerText {
+    font-size: 1.1rem;
+}
+
+.contatoIcons a{
+    margin: 10px;
+}
