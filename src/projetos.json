@@ -2,12 +2,31 @@
     "projects":
     [   
       {
-        "name": "NOME DO PORTFÓLIO",
-        "createdBy": "Nome Sobrenome",
-        "completedOn": "20 set 2014",
-        "categories": ["Aplicação Web", "Web Design", "Aplicativo Móvel"],
-        "link": "https://nomeportfoli.com",
-        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliqu erat volutpat. Ut wisi enim ad minim veniam. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna"
+        "name": "Fashionista E-commerce",
+        "img": "https://codenation-challenges.s3-us-west-1.amazonaws.com/ecommerce/3.png",
+        "createdBy": "Gabriel Rodrigues",
+        "completedOn": "13 de Julho de 2020",
+        "categories": ["Aplicação Web"],
+        "link": "https://github.com/Gabriel-Severo/codenation-final-project",
+        "description": "Projeto proposto para a finalização do curso de React da Codenation com o obtivo de desenvolver as principais funcionalidades de um e-commerce de moda feminina, garantindo a melhor experiência possível para os usuários interagirem com os produtos, utilizando os conceitos apresentados no curso como mobile first, consumir a api disponibilizada, gerenciamento de estado global com redux, SPA (Single Page Application) e BEM CSS."
+      },
+      {
+        "name": "Bot discord",
+        "img": "https://www.techenet.com/wp-content/uploads/2020/12/image-20-900x450.png",
+        "createdBy": "Gabriel Rodrigues",
+        "completedOn": "13 de Outubro de 2020",
+        "categories": ["Desenvolvimento back-end"],
+        "link": "https://github.com/Gabriel-Severo/BotDiscord",
+        "description": "Bot de música desenvolvimento para discord com o intuito de aprender a utilizar o pacote do discord.js"
+      },
+      {
+        "name": "Ticket Bus",
+        "img": "https://camo.githubusercontent.com/248aac993e02e78921d01431a6cf094c894adaa60b65cd2f09ae7e33680a78ca/68747470733a2f2f692e696d6775722e636f6d2f777a714e686a662e706e67",
+        "createdBy": "Gabriel Rodrigues",
+        "completedOn": "1 de Abril de 2020",
+        "categories": ["Desenvolvimento back-end"],
+        "link": "https://github.com/Gabriel-Severo/Ticketbus",
+        "description": "O projeto se trata de um site venda de passagens de onibus selecionando o destino de uma cidade a outra e a o assento do onibus, e por fim é esperado gerar um recibo com as dados informados."
       }
     ]
   }

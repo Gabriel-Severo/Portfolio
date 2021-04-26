@@ -1,20 +1,28 @@
 import styles from '../../styles/Projeto.module.css'
 
-function Projeto() {
+function Projeto({projeto}) {
     return (
         <div className={styles.itemProjeto}>
             <div className={styles.itemImagem}>
                 <div className={styles.subInfo}>
                     <i className="fas fa-info-circle"></i>
                 </div>
-                <img src="http://preview.hasthemes.com/portflow/images/portfolio/equal/1.jpg"></img>
+                <img src={projeto.img}/>
             </div>
             <div className={styles.itemFooter}>
                 <div className={styles.itemTitle}>
-                    Caneca
+                    {projeto.name}
                 </div>
                 <div className={styles.itemDescricao}>
-                    Esta é uma caneca
+                    {projeto.description.length > 40 ? 
+                    projeto.description.split('').map((letra, index)=> {
+                        if(index < 35)
+                            return letra
+                        if(index == 36)
+                            return "..."
+                    }):
+                        projeto.description
+                    }
                 </div>
             </div>
         </div>

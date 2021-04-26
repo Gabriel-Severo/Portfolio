@@ -1,3 +1,15 @@
 .projetoContainer {
-    padding-top: 70px;
+    padding: 110px 50px 0 50px;
+    display: flex;
+}
+
+.projetoImagem {
+    margin-right: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+.projetoImagem img {
+    width: 600px;
+    height: 400px;
 }
