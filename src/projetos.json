@@ -24,9 +24,27 @@
         "img": "https://camo.githubusercontent.com/248aac993e02e78921d01431a6cf094c894adaa60b65cd2f09ae7e33680a78ca/68747470733a2f2f692e696d6775722e636f6d2f777a714e686a662e706e67",
         "createdBy": "Gabriel Rodrigues",
         "completedOn": "1 de Abril de 2020",
-        "categories": ["Desenvolvimento back-end"],
+        "categories": ["Desenvolvimento Web"],
         "link": "https://github.com/Gabriel-Severo/Ticketbus",
         "description": "O projeto se trata de um site venda de passagens de onibus selecionando o destino de uma cidade a outra e a o assento do onibus, e por fim é esperado gerar um recibo com as dados informados."
+      },
+      {
+        "name": "Githome",
+        "img": "https://i.imgur.com/jjcpdYP.png",
+        "createdBy": "Gabriel Rodrigues",
+        "completedOn": "2 de Julho de 2020",
+        "categories": ["Desenvolvimento Web"],
+        "link": "https://github.com/Gabriel-Severo/Ticketbus",
+        "description": "Esse projeto foi desenvolvido para a disciplica de desenvolvimento web como obtenção de nota, utilizando HTML, CSS e Javascript"
+      },
+      {
+        "name": "Blood donation site",
+        "img": "https://camo.githubusercontent.com/df48475ed058652b2b4cc0cf6ba02b12ced0b44bdba849acfa3fc6f392cd9f94/68747470733a2f2f692e696d6775722e636f6d2f774870457664482e706e67",
+        "createdBy": "Gabriel Rodrigues",
+        "completedOn": "17 de Março de 2020",
+        "categories": ["Desenvolvimento Web"],
+        "link": "https://github.com/Gabriel-Severo/Ticketbus",
+        "description": "Um site para cadastro de doadores de sangue para aprendizado de HTML, CSS e Javascript."
       }
     ]
   }

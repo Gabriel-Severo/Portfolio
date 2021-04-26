@@ -31,6 +31,9 @@
 
 .menuTitle a {
     font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menuTitle, .menuItem {
@@ -40,4 +43,30 @@
 .menuItem:hover {
     color: #E57E71;
     font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .menuTitle a {
+        font-size: 1rem;
+    }
+    .menuContainer {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .menuContainer {
+        justify-content: space-around;
+    }
+    .menuTitle a, .menuItem a {
+        font-size: 0.8rem;
+    }
+
+    .menuTitle {
+        display: flex;
+    }
+
+    .menuContainer {
+        padding: 0;
+    }
 }

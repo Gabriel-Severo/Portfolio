@@ -13,3 +13,38 @@
     width: 600px;
     height: 400px;
 }
+
+.projetoText {
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .projetoContainer {
+        flex-direction: column;
+    }
+
+    .projetoImagem {
+        margin-bottom: 20px;
+    }
+
+    .projetoInfo {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .projetoImagem, .projetoImagem img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    .projetoImagem, .projetoImagem img {
+        width: 300px;
+        height: 400px;
+    }
+    .projetoContainer {
+        padding: 90px 30px 0 30px;
+    }
+}
